@@ -37,3 +37,30 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(Primitive) ,  Heap(Non-primitive)
+
+// Example of stack
+
+let myYoutubename = "Hiteshchoudarydotcom"
+let anotherName = myYoutubename
+
+anotherName = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+// Example of Heap 
+
+let userOne = {
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email="hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
